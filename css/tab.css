@@ -1,0 +1,125 @@
+@media (max-width: 786px) {
+
+    header {
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .logo img {
+        height: 70px;
+        padding: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 10px 20px;
+        display: none; /* hidden by default on mobile/tablet */
+      }
+    
+      .nav-links.show {
+        display: flex;
+      }
+    
+      .nav-links a {
+        color: white;
+        font-size: 16px;
+        padding: 8px 0;
+      }
+
+
+    .first-section {
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
+    }
+
+    .first-section p {
+        width: 100%;
+        font-size: 18px;
+        text-indent: 40px;
+        padding: 10px;
+    }
+
+    .first-section h2 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .first-section .right img {
+        height: auto;
+        width: 90%;
+        margin: 5px 10px 0 40px;
+    }
+
+    .second-section p,
+    .third-section p {
+        font-size: 27px;
+    }
+
+    .second-section h2,
+    .third-section h2 {
+        font-size: 21px;
+    }
+
+    .white-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        padding: 0 20px 0 20px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .third-section .box {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .first-column,
+    .second-column,
+    .third-column {
+        flex: unset;
+        width: 100%;
+    }
+
+    .gallery {
+        padding: 0 10px;
+    }
+    
+    .filter {
+        flex-wrap: wrap; /* Allows items to wrap if needed */
+        gap: 40px; /* Smaller gap for smaller screens */
+        padding: 0 10px;
+    }
+
+    .filter h3 {
+        font-size: 20px; /* Slightly smaller font for mobile/tablet */
+        text-align: center;
+    }
+
+    .scroll-top {
+        right: 20px;
+        bottom: 20px;
+        padding: 8px 12px;
+        font-size: 18px;
+    }
+
+    .end {
+        font-size: 14px;
+    }
+}
